@@ -1,0 +1,26 @@
+
+
+.content-wrapper {
+  min-height: calc(80vh - 15rem); /* Adjust height based on the footer's height */
+  /* Make sure it fills the available height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.358);
+  margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  padding: 2rem; /* Optional: add padding for more breathing space */
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8f8; /* Optional: background color for better visibility */
+}

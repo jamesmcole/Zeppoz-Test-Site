@@ -1,0 +1,1048 @@
+@media (max-width: 1200px) {
+  .attractions .text-box:first-of-type .attract-title::after,
+  .attractions .text-box:nth-child(4) .attract-title::after,
+  .attractions .text-box:nth-child(5) .attract-title::after {
+    display: none;
+  }
+
+  .arcade-title{
+  text-align: center !important;
+  
+}
+}
+ 
+
+
+@media (max-width: 1044px){
+
+.bowling-img-container{
+  display: none;
+}
+
+
+  .pdf-image2{
+    width: 45% !important;
+  }
+
+  .btn-mobilerest{
+    display: block !important;
+   
+  }
+
+  .btn-deskrest{
+    display: none;
+  }
+
+  .btn-tapdesk{
+    display: none !important;
+  }
+   
+  .btn-tapmobile{
+    display: block !important;
+  }
+
+
+  .bowling-ball-logo{
+
+  position: absolute;
+  width: 600px;
+  left: 145px;
+  top: -100px;
+
+} 
+
+/* .hour-list-main{
+  display: none;
+} */
+
+.mobile-food-menu2{
+  display: none;
+}
+
+.relative-position{
+  position: relative;
+}
+
+.click-to-view-img{
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: 13%;
+  width:770px;
+}
+
+
+.click-to-view-img2{
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: -37%;
+  width: 100%;
+
+}
+
+.main-nav{
+  display: none !important;
+}
+
+.mobile-nav{
+  display: block !important;
+}
+
+
+
+.mobile-menu{
+  
+  position: fixed;
+  width: 65px;
+  background-color: white;
+  color: var(--primary-color);
+  box-shadow: 3px 3px 0px var(--primary-color);
+  height: 65px;
+  top: 10%;
+  right: 0%;
+  cursor: pointer;
+  border: 2px solid var(--primary-color);
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  z-index: 1000000;
+   transition: all .3s;
+}
+
+.mobile-menu-icon{
+  font-size: 4.8rem;
+  border: none;
+  pointer-events: none;
+}
+
+.mobile-menu:hover {
+  box-shadow: 5px 5px 0px var(--primary-color);
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* MObile NAVIGATION */
+.overlay {
+    z-index: 10000000000000;
+    position: fixed;
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 100vw;
+    top: -100%; /* Start off-screen */
+    opacity: 0; /* Initially invisible */
+    transition: top 0.4s ease, opacity 0.4s ease; /* Slide and fade effect */
+    pointer-events: none;
+}
+
+/* Active overlay: slides down into view */
+.overlay.active {
+    top: 0; /* Slide into view */
+    opacity: 0.95; /* Become visible */
+    pointer-events: all;
+}
+
+.mobile-nav-list{
+  z-index: 1000000000;
+  display: flex;
+  flex-direction: column;
+  font-size: 4.3rem;
+  font-weight: 800;
+  gap: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 100vh;
+
+}
+
+.mobile-nav-link{
+   z-index: 20000000000;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* border-bottom: 2px solid white; */
+  padding: .5rem;
+  transition: all .3s;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:active{
+ 
+  color: gold;
+ 
+}
+
+
+
+.mobile-menu-close{
+  position: fixed;
+  width: 65px;
+  background-color: white !important;
+ color: var(--primary-color) !important;
+  /* box-shadow: 3px 3px 0px white ; */
+  height: 65px;
+  top: 10%;
+  right: 0%;
+  cursor: pointer;
+  border: 2px solid var(--primary-color) !important;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  z-index: 100000000000000;
+   transition: all .3s;
+   display: none;
+}
+.mobile-menu-close:hover{
+  position: fixed;
+  width: 65px;
+  background-color: var(--primary-color) !important;
+ color: white !important;
+  /* box-shadow: 3px 3px 0px white ; */
+  height: 65px;
+  top: 10%;
+  right: 0%;
+  cursor: pointer;
+  border: 2px solid white !important;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+  z-index: 100000000000000;
+   transition: all .3s;
+   display: none;
+}
+
+.mobile-close{
+  font-size: 4.8rem;
+  transform: rotate(45deg);
+  transition: all .3s;
+  color: var(--primary-color);
+}
+.mobile-close:hover{
+  font-size: 4.8rem;
+  transform: rotate(45deg);
+  transition: all .3s;
+  color: white;
+}
+
+
+.overlay.active,
+.mobile-menu-close.active {
+  display: block;
+}
+
+.dwn-arrow{
+  /* left: 46% !important; */
+  display: none;
+  
+}
+
+.navigation-sticky{
+  display: none;
+}
+
+.main-info {
+  
+  justify-content: start !important;
+  padding-top: 20rem !important;
+}
+
+.side-bar{
+  display: none !important;
+}
+
+.hamburger-menu{
+  display: none !important;
+}
+
+
+.main-zeppoz{
+ font-size: 15rem !important;
+}
+
+
+.buttons{
+font-size: 3.2rem !important;
+}
+
+.btn{
+  font-size: 1.8rem !important;
+}
+
+
+.address{
+
+  font-size: 2.4rem !important;
+
+}
+.slogan{
+ font-size: 2.4rem !important;
+}
+
+.hours-main{
+  display: block !important;
+   /* position: absolute; */
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: 500;
+  
+}
+
+.special-main{
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.special-main-photo{
+  width: 50%;
+  border: 2px solid var(--primary-color);
+
+}
+
+.section-cta{
+  display: none;
+}
+
+.section-hero{
+  margin-bottom: 0rem;
+}
+
+.attractions{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 12rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box{
+  width: 75%;
+}
+
+.text-box1{
+  order: -2;
+}
+
+.text-box2{
+  order: -1;
+}
+
+.img-box1{
+  order: -1;
+}
+
+.attract-title{
+  text-align: center !important;
+}
+
+.attract-label{
+  text-align: center !important;
+}
+
+
+
+.attract-description{
+  text-align: center;
+}
+
+.secondary-heading{
+  font-size: 5.2rem;
+}
+
+.img2{
+  display: none;
+}
+
+.heading2{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.grid-bowling{
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin-top: -5rem !important;
+}
+
+.slideshow-gallery {
+  width: 60% !important;
+  position: relative; /* This will serve as the reference point for absolute positioning of the arrows */
+  justify-self: center;
+  margin-top: -4rem !important;
+  display: none;
+
+}
+
+.gallery-img {
+  width: 100%;
+  height: 30rem !important;
+  object-fit: cover;
+  border: 2px solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--primary-color);
+  display: none;
+}
+
+
+
+.section-menu{
+  display: none;
+}
+
+.food-menu-pdf{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 10rem;
+  background-color:  #5f9c8790;
+  padding: 4rem;
+}
+
+.pdf-image{
+  width: 50%;
+  border: 2px solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--primary-color);
+  cursor: pointer;
+  transition: transform .3s;
+  
+}
+
+.pdf-image:hover{
+  transform: scale(1.05);
+}
+
+#lightbox {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fix to viewport */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Full viewport width */
+    height: 100%; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.8); /* Dim background */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000000000; /* Ensure it's above other content */
+}
+
+#lightbox-img {
+    max-width: 90%; /* Ensure the image fits within the viewport */
+    max-height: 90%; /* Ensure the image fits within the viewport */
+    object-fit: contain; /* Scale image proportionally */
+}
+
+
+.mobile-food-menu{
+  position: relative;
+  display: block !important; 
+}
+
+.btnMobile{
+  display: block;
+}
+
+.btnDesk{
+  display: none;
+}
+
+.section-heading{
+  margin-top: 1rem !important;
+}
+
+#lightbox{
+  display: none;
+}
+
+.pricing-card{
+  width: 32rem;
+}
+
+/* RESTARAUNT */
+.attract-label{
+text-align: center !important;
+}
+
+
+
+
+.container{
+padding: 2rem;
+}
+
+.sign-up{
+  width: 75% !important;
+}
+
+.mobile-photo{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.mobile-img{
+  width: 30%;
+  border: 2px solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--primary-color);
+}
+
+.img-box-restaraunt{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.attraction-img-restaraunt{
+  width: 100%;
+  border: 2px  solid black;
+  box-shadow: 5px 5px 0px var(--primary-color);
+  justify-self: center;
+  align-self: center;
+  
+}
+
+.bgcolor{
+  background-color: white !important;
+}
+
+.events-heading{
+  margin-bottom: -1rem;
+}
+.scroll-image{
+  left: 225px !important;
+}
+
+
+.btnMobile2{
+  display: none;
+}
+
+}
+
+@media (max-width: 750px){
+
+
+  .rewardstitle{
+    font-size: 2rem  !important;
+    white-space: nowrap;
+  }
+
+  .rewardsdescription{
+    font-size: 1.6rem !important;
+  }
+
+  .btnreward{
+    font-size: 1.6rem !important;
+    line-height: 2rem;
+  }
+
+ 
+
+.hour-list-main{
+  gap: 2rem !important;
+  top: 25%;
+
+  left:49% !important;
+  transform: translateX(-50%) !important;
+}
+
+
+.resthourtitle{
+  font-size: 2.4rem;
+}
+
+.hours-main-2{
+  gap: 2rem !important;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+
+.btnMobile2{display: block;}
+
+   .btnMobile-specials{
+    display: block !important;
+  }
+
+  .buttons{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem !important;
+  
+ }
+
+  .btn{
+  font-size: 1.8rem !important;
+  border-radius: 10px;
+  text-align: center;
+ }
+
+
+
+ 
+
+  
+
+ .bowling-ball-logo{
+
+  position: absolute;
+  width: 400px;
+  left: 93px;
+  top: -65px;
+
+} 
+
+.space{
+  margin-left: 9rem !important;
+}
+  
+  
+
+
+  .btn-form2{
+    border: 2px solid var(--primary-color);
+  }
+
+  .click-to-view-img{
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: 13%;
+  width: 600px;
+}
+
+.main-zeppoz{
+  font-size: 10rem !important;
+}
+
+.slogan{
+  font-size: 2.4rem !important;
+}
+
+.address{
+  font-size: 1.8rem !important;
+}
+
+.hour-container {
+  position: relative;
+  height: 10000px;
+  width: 1000px;
+}
+
+.hour-list {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: -50px;
+  left: -5px;
+  /* transform: translateX(-50%); */
+  width: 100%;
+  justify-content: center;
+  /* letter-spacing: 1.25px; */
+}
+
+.hours-main{
+   /* position: absolute; */
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  /* font-weight: 700; */
+
+}
+
+.scroll-image{
+  left: 120px !important;
+}
+
+.main-info{
+  padding-top: 8rem !important;
+}
+
+.attractions{
+  grid-template-columns: 1fr !important;
+}
+
+.restaraunt-text-box-1{
+  margin-top: -7rem;
+  order: -4;
+}
+
+.img-box-restaraunt-1{
+  order: -3;
+  width: 75%;
+}
+
+.img-box-restaraunt-2{
+  width: 75%;
+}
+
+.restaraunt-text-box-2{
+  order: -2;
+}
+
+.nomarg{
+  margin-bottom: -8rem !important;
+}
+
+.headingrest{
+  margin-top: 0rem !important;
+}
+
+}
+
+
+.mobile-img{
+ object-fit: cover;
+}
+
+ .mobile-img:nth-child(1){
+  display: none;
+ }
+
+
+
+
+
+
+@media (max-width: 588px){
+
+  .attract-section-title{
+    margin-top: -3.6rem !important;
+    margin-bottom: 6rem !important;
+  }
+
+  .attracttitle{
+    font-size: 3.6rem !important;
+
+  }
+
+  .btn-wrap-rest{
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  
+  .hour-list-main{
+    /* flex-direction: column; */
+  gap: 2rem !important;
+  
+  left: 50% !important;
+  /* bottom: -10% !important; */
+   
+}
+
+
+.resthourtitle{
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+
+.hours-main-2{
+  gap: 2rem !important;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+
+
+
+
+   .btnMobile-specials{
+    display: block !important;
+  }
+
+
+
+
+.hours-main{
+   /* position: absolute; */
+  text-align: center;
+  font-size: 3.2rem;
+  line-height: 3.4rem;
+  font-weight: 500;
+}
+
+  .bowling-ball-logo{
+
+  position: absolute;
+  width: 400px;
+  left: 93px;
+  top: -65px;
+} 
+
+   .btn-form2{
+    border: 2px solid var(--primary-color);
+  }
+
+
+
+.slogan{
+  font-size: 2.8rem !important;
+  margin-bottom: 4rem !important;
+}
+
+  .secondary-heading{
+    font-size: 4.8rem;
+  }
+
+  .events-heading{
+    font-size: 4.8rem;
+  }
+
+  .scroll-image{
+  left: 50px !important;
+  }
+
+  .attractions{
+    gap: 10rem !important;
+  }
+
+  .text-box{
+    margin-bottom: -6rem !important;
+  }
+
+  .event-card{
+    width: 20rem !important;
+    height: 30rem !important;
+  }
+  .event-card-title{
+    font-size: 1.8rem !important;
+    text-align: center;
+  }
+
+  .event-card-day{
+    font-size: 1.2rem !important;
+  }
+  .event-card-month{
+    font-size: 1.2rem !important;
+  }
+
+ .event-card-description{
+  font-size: 1.2rem !important;
+ }
+ .event-card-description-box{
+  margin-bottom: 0rem !important;
+ }
+
+ .event-card-button{
+  font-size: 1.2rem !important;
+ }
+
+ .grid-bowling{
+ width: 100%;
+ }
+
+ .buttons{
+  flex-direction: column;
+ }
+
+ /* .btn{
+  font-size: 2.8rem !important;
+  border-radius: 10px;
+  text-align: center;
+ } */
+
+ .heading2{
+  
+  font-size: 3rem !important;
+ }
+
+ .label{
+  font-size: 1.8rem !important;
+ }
+
+ .mobile-img{
+  width: 50%;
+ }
+
+ .mobile-img:nth-child(2){
+  display: none;
+ }
+
+ .pricing-cards{
+  flex-direction: column;
+ }
+
+ .attract-label{
+  font-size: 1.4rem !important;
+ }
+ 
+.click-to-view-img{
+  display: block;
+  position: absolute;
+  top: 4%;
+  left: 15%; 
+  width: 400px !important;
+}
+
+ .attract-sub{
+    margin-bottom: 1rem !important;
+  }
+
+}
+
+
+
+@media (max-width: 430px){
+
+
+  .main-info{
+    padding-top: 4rem !important;
+  }
+
+.hour-list-main{
+  font-size: 1.8rem !important; 
+}
+  
+
+
+   .bowling-ball-logo{
+
+  position: absolute;
+  width: 300px;
+  left: 72px;
+  top: -50px;
+
+} 
+
+.space{
+  margin-left: 6.5rem !important;
+}
+
+   .btn-form2{
+    border: 2px solid var(--primary-color) !important;
+  }
+
+  .click-to-view-img{
+  display: block;
+  position: absolute;
+  top: 4%;
+  left: 15%; 
+  width: 400px !important;
+}
+
+
+.mobile-menu{
+  top: 4%;
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.mobile-menu-close{
+  top: 4%;
+}
+
+.main-zeppoz{
+  font-size: 7.6rem !important;
+}
+
+.address{
+  font-size: 1.6rem !important;
+   text-shadow: 5px 5px 5px black;
+}
+.slogan{
+  font-size: 2.4rem !important;
+  text-shadow: 5px 5px 5px black;
+}
+
+ /* .btn{
+  font-size: 2.4rem !important;
+  border-radius: 10px;
+  text-align: center;
+ } */
+
+.buttons{
+  gap: .2rem !important;
+}
+
+
+
+.secondary-heading{
+  font-size: 3.2rem;
+}
+
+.attract-title{
+  font-size: 2.6rem !important;
+}
+
+.attract-label{
+  font-size: 1.2rem !important; 
+}
+
+.events-heading{
+  font-size: 3.2rem !important;
+  margin-top: -5rem !important;
+}
+.scroll-image{
+  width: 300px !important;
+}
+
+.event-card-container{
+  margin-top: -8rem !important;
+}
+
+.event-cards{
+  gap: 1.5rem !important;
+}
+
+.mobile-img:nth-child(1){
+  display: none;
+  
+ }
+
+ .mobile-img{
+  width: 80% !important;
+ }
+
+ .heading2{
+  font-size: 3.2rem !important;
+ }
+
+ .label{
+  font-size: 1.6rem !important;
+ }
+
+ .headingrest{
+  font-size: 2.8rem !important;
+ }
+
+ .footer{
+  width: 100% !important;
+  padding: 0 !important;
+  
+}
+
+.section-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  
+  background-image: url('/img/burger2.png') ;
+  background-size: cover;
+  background-position: calc(100% + 165px) center;
+  filter: blur(.5px); 
+  filter: brightness(.8);
+  z-index: 1;
+}
+ 
+  .attract-sub{
+    margin-bottom: 1rem !important;
+  }
+
+  .btn-explore{
+    text-align: center;
+    padding: 1rem;
+  }
+
+}
+
+
+

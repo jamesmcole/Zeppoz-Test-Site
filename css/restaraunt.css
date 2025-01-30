@@ -1,0 +1,436 @@
+html{
+  scroll-behavior: smooth ;
+}
+
+.attract-section-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12rem;
+  
+  
+}
+
+.section-attractions{
+  margin-bottom: 5.6rem;
+}
+
+
+
+
+.subheading{
+  /* display: block; */
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  /* text-transform: uppercase; */
+  /* font-weight: 600; */
+  /* letter-spacing: .75px; */
+  color: var(--secondary-color);
+  /* margin-bottom: 1rem; */
+  /* text-align: left; */
+  margin-bottom: 9.6rem;
+  
+}
+
+.secondary-heading{
+  font-size: 4.8rem;
+  font-family: sans-serif;
+  color:var(--primary-color);
+  /* line-height: 1.2; */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.244);
+  text-transform: uppercase;
+  position: relative;
+}
+
+/* .secondary-heading::after{
+ content: '';
+  background-image: url("img/burst.png");
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  bottom: -350%;
+  left: 66%;
+
+  
+} */
+
+.attractions{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ justify-items: center;
+  column-gap: 10rem;
+  row-gap: 10rem;
+  padding: 5rem;
+
+}
+
+.text-box{
+  align-self: center;
+}
+
+.attraction-img{
+  width: 80%;
+  border: 2px  solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--primary-color);
+  
+ 
+}
+
+.img-box-restaraunt{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.attraction-img-restaraunt{
+  width: 100%;
+  border: 2px  solid black;
+  box-shadow: 5px 5px 0px var(--primary-color);
+  justify-self: center;
+  align-self: center;
+  max-height: 400px;
+  
+}
+
+.img-box{
+ display: flex;
+ justify-content: center;
+ position: relative;
+}
+
+.attract-label{
+   /* display: block; */
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .75px;
+  color: var(--secondary-color);
+  /* margin-bottom: 1rem; */
+  text-align: left;
+  position: relative;
+
+}
+
+
+
+/* .attractions
+.text-box.text-box:nth-child(4)
+.attract-label{
+  text-align: center;
+  
+} */
+
+.attract-title{
+  font-size: 3.2rem;
+  font-family: sans-serif;
+  color: var(--primary-color);
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  position: relative;
+  text-align: left;
+  
+}
+
+/* .attractions
+.text-box:first-of-type .attract-title::after {
+  content: '';
+  background-image: url('img/burst.png');
+  position: absolute;
+  top: -210%;
+  left: 59%;
+  transform: scaleX(-1);
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+/* .attractions
+.text-box:nth-child(4)
+.attract-title::after {
+  content: '';
+  background-image: url('img/burst.png');
+  position: absolute;
+  top: -215%;
+  left: -30%;
+  
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+} */
+
+/* .attractions
+.text-box:nth-child(5)
+.attract-title::after {
+  content: '';
+  background-image: url('img/burst.png');
+  position: absolute;
+  top: -135%;
+  left: -30%;
+  
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+} */
+
+
+
+
+.attract-description{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+  line-height: 1.5;
+}
+
+.btn-wrap{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  
+}
+
+.btn-explore{
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 1.6rem;
+  /* border-radius: 10px; */
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+  box-shadow: 5px 5px 0px var(--primary-color);
+  z-index: 10;
+}
+
+.btn-learn{
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  scroll-behavior: smooth;
+
+}
+
+.btn-mobilerest{
+  display: none;
+}
+
+.btn-tapmobile{
+  display: none;
+}
+
+.btn-learn:active,
+.btn-learn:focus,
+.btn-learn:hover{
+  background-color: var(--text-color);
+  border: 2px solid var(--primary-color);
+  color: white;
+  box-shadow: 8px 8px 0px var(--primary-color);
+}
+
+
+
+
+.img2{
+position: absolute;
+width: 35%;
+border: 2px solid black;
+top: -15%;
+right: 0%;
+transform: rotate(20deg);
+box-shadow: 0px 0px 0px black;
+}
+
+.img1{
+  transform: rotate(-4deg);
+  top: 70%;
+  right: 65%;
+  width: 35%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.369);
+}
+.bgcolor{
+  background-color: #f8f8f8;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.rewardsbox{
+  padding: 5rem;
+  border:2px solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--secondary-color);
+  margin-left: 10rem !important;
+  margin-right: 10rem !important;
+
+}
+
+.container{
+  margin-bottom: 0rem !important;
+   max-width: 120rem;
+
+
+}
+
+
+.sign-up{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 60%;
+  border: 2px solid var(--primary-color);
+  padding: 2rem;
+  box-shadow: 5px 5px  0px var(--primary-color);
+  padding-bottom: 5rem;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-form2{
+  width: 40%;
+  grid-column: span 2;
+  justify-self: center;
+  height: 250%;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+.btn-form2:hover{
+  width: 40%;
+  grid-column: span 2;
+  justify-self: center;
+  height: 250%;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--text-color);
+  box-shadow: 8px 8px 0 var(--primary-color);
+  color: white;
+}
+
+.mobile-food-menu{
+  display: none;
+}
+
+.food-menu-pdf2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ justify-content: center; /* Centers the entire grid horizontally */
+  justify-items: center; /* Centers items horizontally within their cells */
+  align-items: center; /* Centers items vertically within their cells */
+  margin-top: 8rem;
+  /* display: flex;
+  flex-direction: column; */
+  gap: 1rem;
+  /* align-items: center; */
+  margin-bottom: 10rem;
+  background-color:  #5f9c8790;
+  padding: 4rem;
+  padding-top: 15rem;
+  /* padding-left: 5rem;
+  padding-right: 5rem; */
+}
+
+.pdf-image2{
+  width: 75%;
+  border: 2px solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--primary-color);
+  cursor: pointer;
+  transition: transform .3s;
+  align-self: center;
+  /* overflow: hidden; */ z-index: 1;
+  
+}
+
+.pdf-image2:hover{
+  
+  border: 2px solid var(--primary-color);
+  box-shadow: 5px 5px 0px var(--primary-color);
+  cursor: pointer;
+  transition: transform .3s;
+  align-self: center;
+  transform: scale(1.05);
+  /* overflow: hidden; */
+  
+}
+
+.relative-position2 {
+    position: relative; /* Ensure the section is the positioning context */
+}
+
+.click-to-view-img-2 {
+    position: absolute; /* Absolute position within the section */
+    top: 125px; /* Adjust based on desired vertical position */
+    left: 35%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset to center the image */
+    width: 700px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 0; /* Ensure it appears above other content */
+}
+
+#lightbox {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fix to viewport */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Full viewport width */
+    height: 100%; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.8); /* Dim background */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000000000; 
+}
+
+#lightbox-img {
+    max-width: 90%; /* Ensure the image fits within the viewport */
+    max-height: 90%; /* Ensure the image fits within the viewport */
+    object-fit: contain; /* Scale image proportionally */
+}
+
+
+
+
+
+.rewardstitle{
+  margin-top: -2rem;
+  font-size: 3.2rem;
+}
+
+.rewardsdescription{
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+.rewardstitlebox{
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.reward-btn-wrap{
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+}
