@@ -891,12 +891,39 @@ padding: 2rem;
 @media (max-width: 430px){
 
 
+  .attracttitle{
+    font-size: 2rem !important;
+
+  }
+
+
   .main-info{
-    padding-top: 4rem !important;
+    padding-top: 5rem !important;
   }
 
 .hour-list-main{
+  margin-top: -2rem !important;
   font-size: 1.8rem !important; 
+  flex-direction: column;
+  row-gap: 0rem !important;
+}
+
+
+
+.hours-main-2{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.resthourtitle{
+  margin-top: .5rem;
+ margin-bottom: .2rem !important;
+ font-size: 1.4rem;
+}
+
+.address{
+  font-size: .2rem !important;
+  text-align: center;
 }
   
 

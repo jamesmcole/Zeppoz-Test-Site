@@ -52,6 +52,8 @@
   margin-bottom: 10rem;
 }
 
+
+
 /* .after::after{
    content: '';
   background-image: url("img/burst.png");
@@ -368,9 +370,10 @@ width: auto;
 .club-grid-img{
   height: auto;
   max-height: 350px;
-  justify-self: center;
+  justify-self: center; 
 
   object-fit: cover;
   border: 2px solid var(--primary-color);
   box-shadow: 2px 2px 0px var(--primary-color);
 }
+

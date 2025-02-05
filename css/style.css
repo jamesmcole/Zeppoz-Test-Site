@@ -380,7 +380,7 @@ z-index: -2;
   /* flex-direction: column; */
   gap: 5rem;
   position: absolute;
- bottom: 5%;
+ bottom: 15%;
   
   left:48%;
   transform: translateX(-50%);
@@ -1129,4 +1129,10 @@ box-shadow: 0px 0px 0px black;
 }
 
 
+
+.eventpromobtn{
+  background-color:  #fb5078;
+  color: white;
+
+}
 
